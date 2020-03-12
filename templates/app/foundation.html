@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static '/css/foundation.css' %}">
+</head>
+<body>
+       {% autoescape off %}{{ blog.title }}{% endautoescape %}
+        <br/>
+        <br/>
+        {% autoescape off %}{{ blog.content }}{% endautoescape %}
+        <script src="{% static '/js/highlight.pack.js' %}"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
