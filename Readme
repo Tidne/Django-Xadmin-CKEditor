@@ -1,0 +1,3 @@
+这是一个在django2.0中集成xadmin和ckeditor的demo
+
+用于测试使用，在templates中有很多html模板，分别代表模板的代码显示样式
